@@ -1,0 +1,164 @@
+
+header {
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.inner-container {
+    max-width: 1170px;
+    margin: auto;
+}
+#top-header {
+    display: flex;
+    justify-content: center;
+}
+#top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#top-header-container nav ul {
+    display: flex;
+}
+#top-header-container nav ul li {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#top-header-container nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 7px 10px 7px 10px;
+}
+.active-top {   
+    background-color: #539165;
+    color: white !important;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+}
+#top-header-container nav ul li a:hover {
+    background-color: #539165;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+}
+#logo {
+    font-family: 'Poppins', sans-serif;
+}
+#logo h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+#top-header-container {
+    width: 100%;
+    margin: 0px;
+}
+.banner-info {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-info h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+div#banner-separator {
+    background: #539165;
+    height: 8px;
+    width: 118px;
+    margin-bottom: 38px;
+}
+.banner-info p {
+    font-size: 20px;
+}
+#banner {
+    margin-top: 30px;
+}
+.banner {
+    display: flex;
+}
+.banner-pic {
+    width: 80%;
+}
+.banner-pic img {
+	animation: float 6s ease-in-out infinite;
+}
+#banner {
+    
+  animation: fadeIn ease 1s;
+}
+.reviews {
+    background-color: #539165;
+    height: 600px;
+}
+.review {
+    background-color: white;
+    width: 23%;
+    border-radius: 10px;
+}
+.review-container{
+    display: flex;
+    justify-content: space-between;
+}
+.reviews {
+    font-family: 'Poppins', sans-serif;
+}
+.review-intro {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.description {
+    padding: 10px;
+}
+.description p {
+    font-size: 13px;
+    font-weight: normal;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+ul#skillset {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill-overview {
+    text-align: center;
+}
+#skillset li {
+    margin: 5px;
+}
+.review-intro img {
+    border-radius: 50px;
+}
+.reviews h1 {
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+}
+/* ANIMATIONS */
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
